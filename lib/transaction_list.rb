@@ -21,4 +21,10 @@ class TransactionList
       TransactionGroup.new(t[1])
     end
   end
+
+  def bank_payments
+    @bp ||= transaction_groups.select do |t|
+      t.is_bank_payment?
+    end
+  end
 end

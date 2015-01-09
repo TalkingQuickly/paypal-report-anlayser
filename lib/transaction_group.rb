@@ -41,6 +41,8 @@ class TransactionGroup
         data.first.date,
         data.first.name,
         data.last.amount,
+        data.last.currency,
+        data.last.amount,
         data.last.currency
       ]
     end
