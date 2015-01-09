@@ -26,3 +26,8 @@ In addition the invoice amount can be used to reconcile back to a receipt manage
 ## Usage
 
 Coming soon once this has been converted into a gem.
+
+## TODO
+
+* Gem + Thor Tasks
+* Export PayPal Balance Transactions as separate report
